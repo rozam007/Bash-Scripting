@@ -17,5 +17,7 @@ echo "my name is $name, age is $age and i lives in $city"
 
 whichBash=$(basename "$SHELL")
 
-echo "I am using $whichBash"
+echo "Available shells:"
+cat /etc/shells
 
+echo "I am using $whichBash"
